@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       base: https://dl.google.com/games/registry/unity/com.google.play.common/com.google.play.common
-      version: 1.9.0
+      version: 1.9.2
     steps:
       - uses: actions/checkout@v2
       - name: Config
